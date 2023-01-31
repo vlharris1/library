@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Peach Library</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="grid4">
+        
+        <div class="checkout_left">
+            <div class="checkout_top">
+                <b style="color: #f8d937;">One last step before your journey!</b>
+            </div>
+            <div class="checkout_form">
+            <form>
+                <label for="fname">Name<span style="color: red;">*</span></label>
+                <div class="join_name">
+                <input type="text" id="fname" name="fname" placeholder="First name" maxlength="50" required>
+                <input type="text" id="lname" name="lname" placeholder="Last name" maxlength="50" required>
+                </div><br>
+
+                <label for="dob">Date of Birth<span style="color: red;">*</span></label>
+                <input type="text" id="dob" name="dob" placeholder="Format MMDDYYYY" maxlength="8" required><br>
+
+                <label for="email">Email<span style="color: red;">*</span></label>
+                <input type="text" id="email" name="email" maxlength="50"><br>
+
+                <label for="address">Address<span style="color: red;">*</span></label>
+                <input type="text" id="address" name="address" placeholder="Address" maxlength="50" required><br>
+
+                <label for="contd"></label>
+                <input type="text" id="contd" name="contd" placeholder="Address continued" maxlength="50"><br>
+
+                <div class="join_address">
+                <label for="city"></label>
+                <input type="text" id="city" name="city" placeholder="City" maxlength="25" required>
+
+                <label for="state"></label>
+                <input type="text" id="state" name="state" placeholder="State" maxlength="2" required>
+
+                <label for="zip"></label>
+                <input type="text" id="zip" name="zip" placeholder="Zip Code" maxlength="4" required>
+                </div>
+
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Phone (Optional)" maxlength="10">
+            </form>
+
+            <div class="hold_button">
+                <button onclick="checkoutButton()">Place Hold</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="checkout_right">
+            <h6 style="font-size: 30px;">Twice as Hard: The Stories of Black Women Who Fought to Become Physicians, from the Civil War to the 21st Century</h6><br>
+            <img src="book5.jpg" alt="book cover" style="width:20%"><br>
+            <h6 style="font-size: 30px;">By Jasmine Brown</h6><br><br><br><br><br><br>
+            <h6 style="color: red; font-size: 30px;">*Please make sure to pick-up all library
+                holds within 5 days or they will be returned to the shelf.*</h6>
+        </div>
+    </div>
+    
+</body>
+</html>

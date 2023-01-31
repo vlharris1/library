@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Peach Library</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">
+    <script src="goldpeach.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="column">
+            <a class="fa fa-home" href=""></a>
+        </div>
+        <div class="column">
+            <a href="">Residents</a>
+        </div>
+        <div class="column">
+            <a href="">Locations & Hours</a>
+        </div>
+        <div class="column">
+            <a href="">About Us</a>
+        </div>
+        <div class="column">
+            <a><b style="color: #f8d937;">GOLDPEACH</b>COUNTY<br><hr>VIRGINIA</a>
+        </div>
+        <div class="column">
+            <a href="">Books & More</a>
+        </div>
+        <div class="column">
+            <a href="">My Account</a>
+        </div>
+        <div class="column">
+            <a href="">My Cart</a>
+        </div>
+        <div class="column">
+                <textarea class="searchbox" input type="text" name="search" placeholder="Search..."></textarea>
+        </div>
+    </div>
+
+
+    <div class="register_background">
+        <div class="join_greeting">
+            <h6 style="font-size: 50px;">Join the Library</h6>
+        </div>
+        <div class="card_sign_in">
+            <div class="container" id="form">
+                <h6>CREATE AN ACCOUNT</h6>
+                <form>
+                    <label for="fname">Name<span style="color: red;">*</span></label>
+                    <div class="join_name">
+                    <input type="text" id="fname" name="fname" placeholder="First name" maxlength="50" required>
+                    <input type="text" id="lname" name="lname" placeholder="Last name" maxlength="50" required>
+                    </div><br>
+
+                    <label for="dob">Date of Birth<span style="color: red;">*</span></label>
+                    <input type="text" id="dob" name="dob" placeholder="Format MMDDYYYY" maxlength="8" required><br>
+
+                    <label for="email">Email<span style="color: red;">*</span></label>
+                    <input type="text" id="email" name="email" maxlength="50"><br>
+
+                    <label for="address">Address<span style="color: red;">*</span></label>
+                    <input type="text" id="address" name="address" placeholder="Address" maxlength="50" required><br>
+
+                    <label for="contd"></label>
+                    <input type="text" id="contd" name="contd" placeholder="Address continued" maxlength="50"><br>
+
+                    <div class="join_address">
+                    <label for="city"></label>
+                    <input type="text" id="city" name="city" placeholder="City" maxlength="25" required>
+
+                    <label for="state"></label>
+                    <input type="text" id="state" name="state" placeholder="State" maxlength="2" required>
+
+                    <label for="zip"></label>
+                    <input type="text" id="zip" name="zip" placeholder="Zip Code" maxlength="4" required>
+                    </div>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" placeholder="Phone (Optional)" maxlength="10">
+                </form>
+
+                <button onclick="createAccount()">Submit</button><br><br>
+                <h6 id="account"></h6>
+                <!-- <input type="submit" value="Submit" maxlength="180"> -->  
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

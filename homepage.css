@@ -3,7 +3,8 @@ body {
 }
 
 ul {
-    list-style-type: none;
+    text-align: center;
+    /* list-style-type: circle; */
 }
 
 li {
@@ -42,6 +43,7 @@ h6 {
     text-align: center;
     background-image: url("search_icon.jpg");
     background-repeat: no-repeat;
+    background-position: right;
 }
 
 .under_navbar {
@@ -66,14 +68,35 @@ h4 {
     text-shadow: 2px 2px #ccc;
 }
 
+.pic1 {
+    text-align: left;
+    background-image: url("girl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.pic2 {
+    text-align: left;
+    background-image: url("teens.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .pic3 {
     text-align: left;
+    background-image: url("bookreturn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 .pic3_text {
-    position: absolute;
     top: 35%;
     left: 70%;
+    padding: 40px;
+}
+
+.fa-mobile-phone {
+    font-size: 50px;
 }
 
 .below_pics {
@@ -91,3 +114,261 @@ h5 {
 .staff_login {
     text-align: right;
 }
+
+body {
+    background-color: #e7e5e5;
+}
+
+.about_title{
+    margin-left: 8%;
+    padding: 10px;
+}
+
+.overview {
+    display: grid;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 8%;
+    grid-template-areas: 
+        "card1_area card2_area card2_area";
+}
+
+.overview > div {
+    padding: 20px;
+}
+
+.library_mission {
+    box-sizing: border-box;
+    background-color: #e7e5e5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sign_in_welcome {
+    color: #f8d937;
+    text-align: center;
+    text-shadow: 
+        1px 1px 0 black,
+        -1px -1px 0 black,
+        -1px 1px 0 black,
+        1px -1px 0 black;
+}
+
+.success_welcome {
+    color: #f8d937;
+}
+
+.card_sign_in {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.sign_in_background {
+    background-image: url("stackedbooks.jpg");
+    height: 100%;
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input_pin {
+    background-image: url("eye_slash.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#lname input[type=text] {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    width: 40%;
+    border-radius: 15%;
+    border: none;
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    padding: 14px 20px;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.terms_privacy {
+    text-align: center;
+    padding: 5%;
+}
+
+.register_background {
+    padding: 100px;
+}
+
+.join_greeting {
+    text-align: center;
+}
+
+.join_name > input {
+    width: 49%;
+    display: inline;
+}
+
+.join_address > input {
+    width: 33%;
+    display: inline;
+}
+
+button {
+    padding: 12px 20px;
+}
+
+
+.grid1 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    padding-block: 30px;
+    width: min (95%, 100px);
+    margin-inline: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.grid2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    padding-block: 30px;
+    width: min (95%, 100px);
+    margin-inline: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.book_list_header {
+    margin-left: 8%;
+}
+
+.grid3 {
+    display: grid;
+    gap: 20px;
+    /* grid-template-columns: repeat(2, 1fr); */
+    padding-block: 30px;
+    width: min (95%, 100px);
+    margin-inline: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-areas: 
+        "grid3_left grid3_right grid3_right";
+}
+
+.hold_button > button {
+    background-color: #f8d937;
+    color: black;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 15px;
+}
+
+.card {
+    mix-blend-mode: multiply;
+}
+
+.five_star_review {
+    mix-blend-mode: multiply;
+}
+
+.five_star_rating {
+    mix-blend-mode: multiply;
+}
+
+.review_page_button > button {
+    background-color: white;
+    color: black;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 10%;
+    margin-right: 10%;  
+}
+
+.grid_review_page {
+    display: grid;
+    gap: 20px;
+    padding-block: 30px;
+    width: min (95%, 100px);
+    margin-inline: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-areas: 
+        "card book_cover review";
+}
+
+.success_container {
+    padding: 50px;
+    text-align: center;
+}
+
+.success_team {
+    text-align: center;
+}
+
+.grid4 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.checkout_left {
+    background-color: white;
+    margin-left: 0%;
+}
+
+.checkout_top {
+    background-color: #14164a;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.checkout_right {
+    margin-top: 40px;
+}
+
+.checkout_form {
+    padding: 50px;
+}
+
+
+
