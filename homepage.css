@@ -119,6 +119,18 @@ body {
     background-color: #e7e5e5;
 }
 
+@media only screen and (max-width: 600px) {
+    .pic1, .pic2 {
+        display: none;
+    }
+    .navbar {
+        display: block;
+    }
+    .homepage_pics {
+        display: block;
+    }
+}
+
 .about_title{
     margin-left: 8%;
     padding: 10px;
@@ -157,6 +169,14 @@ body {
     background-color: white;
     border-radius: 10px;
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .overview {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20%;
+    }
 }
 
 .sign_in_welcome {
@@ -230,6 +250,19 @@ input[type=submit]:hover {
     padding: 5%;
 }
 
+@media only screen and (max-width: 600px) {
+    .sign_in_background {
+        padding: 1%;
+    }
+    input[type=text] {
+        padding: 5%;
+    }
+    input[type=submit] {
+        padding: 5%;
+        width: 100%;
+    }
+}
+
 .register_background {
     padding: 100px;
 }
@@ -250,6 +283,18 @@ input[type=submit]:hover {
 
 button {
     padding: 12px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .register_background {
+        padding: 1%;
+    }
+    .join_name > input {
+        width: 100%;
+    }
+    .join_address > input {
+        width: 100%;
+    }
 }
 
 
@@ -305,6 +350,12 @@ button {
     mix-blend-mode: multiply;
 }
 
+@media only screen and (max-width: 600px) {
+    .grid3 {
+        display: block;
+    }
+}
+
 .five_star_review {
     mix-blend-mode: multiply;
 }
@@ -333,6 +384,15 @@ button {
     margin-right: 5%;
     grid-template-areas: 
         "card book_cover review";
+}
+
+@media only screen and (max-width: 600px) {
+    .grid_review_page {
+        display: block;
+    }
+    .book_cover {
+        margin-top: 10%;
+    }
 }
 
 .success_container {
@@ -368,6 +428,12 @@ button {
 
 .checkout_form {
     padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid4 {
+        display: block;
+    }
 }
 
 
